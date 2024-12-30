@@ -13,15 +13,18 @@
 5. 執行multipleHRV.m 可同執行InputDir路徑 file裡的多個檔案
 6. 會出現對應檔名的file 裡面的 0000_HRV_results_allwindows_XXX.csv就是所要的HRV分析檔案
 
-Backup: 
-* edfread.m跟PSG_chun_fft 是為了分解edf檔
-* PhysioNet-HRV-Tool套件是從下列github下載
-https://github.com/cliffordlab/PhysioNet-Cardiovascular-Signal-Toolbox
-重要檔案包含:
-Main_HRV_Analysis
-InitializeHRVparams
-startup
-mutipleHRV
-* 有原始資料在pre資料夾
-* edf2mat.m可以單純把edf檔轉成mat檔, 需搭配edfread.m
-* 要有Tools
+### Some useful instructions
+* 路徑讀取不到: addpath(genpath('.'))
+* 查看edf檔案: edfread('檔名.edf');
+
+### Backup: 
+1. edfread.m跟PSG_chun_fft 是為了分解edf檔
+2. PhysioNet-HRV-Tool套件是從下列github下載: https://github.com/cliffordlab/PhysioNet-Cardiovascular-Signal-Toolbox
+3. 重要檔案包含:
+* Main_HRV_Analysis
+* InitializeHRVparams
+* startup
+* mutipleHRV
+4. 有原始資料在pre資料夾
+5. edf2mat.m可以單純把edf檔轉成mat檔, 需搭配edfread.m
+6. 一定要下載Tools
