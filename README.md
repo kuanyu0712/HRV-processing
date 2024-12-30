@@ -21,10 +21,10 @@
 1. edfread.m跟PSG_chun_fft 是為了分解edf檔
 2. PhysioNet-HRV-Tool套件是從下列github下載: https://github.com/cliffordlab/PhysioNet-Cardiovascular-Signal-Toolbox
 3. 重要檔案包含:
-  * Main_HRV_Analysis
-  * InitializeHRVparams
-  * startup
-  * mutipleHRV
+    * Main_HRV_Analysis
+    * InitializeHRVparams
+    * startup
+    * mutipleHRV
 4. 有原始資料在pre資料夾
 5. edf2mat.m可以單純把edf檔轉成mat檔, 需搭配edfread.m
 6. 一定要下載Tools
