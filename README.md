@@ -3,10 +3,10 @@
 1. 要先到https://github.com/cliffordlab/PhysioNet-Cardiovascular-Signal-Toolbox 下載裡面的Tools file
 ### Step:
 1. 執行 extract_ECG_from_edf.m  可以把原始edf檔轉換成mat檔並且萃取出第十個ECG channel
-  * InputDir是放原始edf file
-  * OutputDir是放轉換完的mat檔
-  * NewOutputDir是放萃取出的ECG channel的mat檔
-  * 注意: 目前ECG channel在第10個位置(可直接在terminal下edfread('檔名.edf');去看ECG在哪一個channel)
+   * InputDir是放原始edf file
+   * OutputDir是放轉換完的mat檔
+   * NewOutputDir是放萃取出的ECG channel的mat檔
+   * 注意: 目前ECG channel在第10個位置(可直接在terminal下edfread('檔名.edf');去看ECG在哪一個channel)
 3. 執行 checkIsECG.m 畫圖確定是否為ECG訊號
 --------------- 到目前為止ECG訊號已萃取完畢------------------------
 4. 在terminal下指令: addpath(genpath('.'))
