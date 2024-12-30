@@ -1,4 +1,6 @@
 ## 可以讀取原始PSG edf檔中的ECG channel訊號, 並且進一步做HRV分析
+### Pre:
+1. 要先到https://github.com/cliffordlab/PhysioNet-Cardiovascular-Signal-Toolbox下載裡面的Tools file
 ### Step:
 1. 執行 extract_ECG_from_edf.m  可以把原始edf檔轉換成mat檔並且萃取出第十個ECG channel
   * InputDir是放原始edf file
